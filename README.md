@@ -98,17 +98,6 @@ O MVP é focado em:
 | FastAPI | Framework de API assíncrona |
 | Pydantic | Validação de dados |
 
-### 🤖 IA
-
-| Tecnologia | Descrição |
-|---|---|
-| OpenAI API | Modelo de linguagem para geração |
-
-```
-.
-└── .ai/
-```
-
 ---
 
 <p align="center">Feito com ☕ e muitos dados sintéticos.</p>
