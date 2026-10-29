@@ -1,4 +1,4 @@
-# 🔧 DataForge
+# 🔧 DaaS - Data as a Storytelling
 ### Plataforma de Datasets Relacionais Sintéticos
 
 > Gere ecossistemas de dados realistas com inteligência relacional — via prompts, storytelling e esquemas personalizados.
@@ -7,7 +7,7 @@
 
 ## 📌 Visão Geral
 
-**DataForge** é uma plataforma nativa de IA para geração de datasets relacionais sintéticos e realistas.
+**DaaS - Data as a Storytelling** é uma plataforma nativa de IA para geração de datasets relacionais sintéticos e realistas.
 
 Em vez de baixar datasets estáticos, os usuários podem criar ecossistemas de negócios completos utilizando:
 
