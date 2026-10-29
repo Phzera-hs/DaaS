@@ -47,21 +47,21 @@ export const useWorkspaceStore = create<WorkspaceState>((set) => ({
           title: 'E-commerce Mock',
           tables: [
             {
-              id: 't1',
-              name: 'users',
-              columns: [
-                { id: 'c1', name: 'id', type: 'uuid', isPrimaryKey: true },
-                { id: 'c2', name: 'email', type: 'varchar' },
-                { id: 'c3', name: 'created_at', type: 'timestamp' }
-              ]
-            },
-            {
               id: 't2',
               name: 'orders',
               columns: [
                 { id: 'c4', name: 'id', type: 'uuid', isPrimaryKey: true },
                 { id: 'c5', name: 'user_id', type: 'uuid', foreignKey: { targetTable: 'users', targetColumn: 'id' } },
                 { id: 'c6', name: 'total', type: 'decimal' }
+              ]
+            },
+            {
+              id: 't1',
+              name: 'users',
+              columns: [
+                { id: 'c1', name: 'id', type: 'uuid', isPrimaryKey: true },
+                { id: 'c2', name: 'email', type: 'varchar' },
+                { id: 'c3', name: 'created_at', type: 'timestamp' }
               ]
             }
           ]
